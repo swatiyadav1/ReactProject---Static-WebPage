@@ -1,0 +1,47 @@
+*{
+    box-sizing:border-box;
+}
+nav{
+    display:flex;
+    align-items:center;
+    background-color:#b4bfc2;
+    height: 100px;
+    padding:30px 25px;
+}
+.nav--logo{
+    height:30px;
+    margin-right:10px;
+}
+.nav--logoText{
+    margin-right: auto;
+    color:#65b2e6;
+    font-size:24px;
+}
+.nav--text{
+    color: #559bab;
+
+}
+main{
+    padding:55px 30px;
+    background-image: url("./Images/uniBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: 300px;
+}
+.main--title{
+    font-size:35px;
+    letter-spacing: -0.07em;
+}
+.main--facts{
+    margin-top:45px;
+}
+.main--facts>li{
+    padding-block:10px;
+    font-size: 1.7rem;
+    color:blue;
+}
+.main--facts>li::marker{
+    color:yellow;
+}
+  
